@@ -16,7 +16,7 @@ const everyYear=new Date()
 yearDate.innerText=everyYear.getFullYear();
 window.addEventListener("scroll",function(){
     let scrollingValue=window.scrollY;
-    let screenwidth=window.innerWidth>=992 ? 140 : 90;
+    let screenwidth=window.innerWidth>=992 ? 100 : 90;
     if(scrollingValue>=screenwidth){
         navbar.classList.add("nav-sticky");
     }
